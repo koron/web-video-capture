@@ -1,8 +1,6 @@
 #video {
   border: 1px solid #999;
-  min-width: 300px;
-  max-width: 300px;
-  min-height: 250px;
-  max-height: 250px;
+  width: 900px;
+  height: 750px;
   box-sizing: content-box;
 }

@@ -1,7 +1,7 @@
 console.log('start vcap.js');
 
 const VCaptureOptions = {
-  video: {width: 300, height: 250},
+  video: {width: 900, height: 750},
   audio: false,
 };
 
