@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web Video Capture (Q test)</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./default.css">
+  </head>
+  <body>
+    <h1>Web Video Capture (Q test)</h1>
+
+    <p>
+    <button id="start">Start Capture</button>
+    <button id="recordStart">Record Start</button>
+    <button id="recordStop">Record Stop</button>
+    </p>
+
+    <hr>
+    <video id="video" autoplay></video>
+
+    <hr>
+
+    <p>
+    Example animation: <a href="https://codepen.io/natewiley/details/Ciwyn/">CSS Particle Animation</a><br>
+    </p>
+
+    <p>
+    Results:
+    <ul>
+      <li><a href="q01-h264-2_5m.webm">AVC1 (H264)</a></li>
+      <li><a href="q02-vp9-2_5m.webm">VP9</a></li>
+      <li><a href="q03-vp8-2_5m.webm">VP8</a></li>
+    </ul>
+    </p>
+    <script src="./vcap.js"></script>
+    <script src="./controll.js" defer></script>
+  </body>
+</html>
